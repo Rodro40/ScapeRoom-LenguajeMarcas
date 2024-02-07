@@ -1,0 +1,91 @@
+/* Fuente de fontspace.com, sólo para uso personal */
+@font-face {
+  font-family: "ComicKids-WyvKG";
+  src: url("../fonts/ComicKids-WyvKG.otf");
+}
+body {
+  background: radial-gradient(#712424, #2c337b);
+}
+/* FIJAMOS el ancho y la posición de la escena y de los mensajes */
+.escena {
+  width: 1024px;
+  height: 1024px;
+  margin: auto;
+  background-image: url("../ScapeRoomIMG/BackroomEntrance.jpeg");
+  background-size:cover;
+  position: relative;
+  display: block;
+}
+.puertaE1 {
+  background-color: aqua;
+  height: 230px;
+  width: 150px;
+  position: absolute;
+  top: 580px;
+  left: 450px;
+  display: block;
+}
+.puertaE2 {
+  background-color: aqua;
+  height: 280px;
+  width: 130px;
+  position: absolute;
+  top: 390px;
+  left: 460px;
+  display: none;
+}
+.puertaizqE3 {
+  background-color: aqua;
+  height: 500px;
+  width: 50px;
+  position: absolute;
+  top: 290px;
+  left: 670px;
+  display: none;
+}
+
+.puertadchaE3 {
+  background-color: aqua;
+  height: 500px;
+  width: 50px;
+  position: absolute;
+  top: 290px;
+  left: 320px;
+  display: none;
+}
+.puertaRoja {
+  background-color: rgb(255, 145, 0);
+  height: 600px;
+  width: 120px;
+  position: absolute;
+  top: 240px;
+  left: 80px;
+  display: none;
+}
+.puertaAzul {
+  background-color: rgb(255, 145, 0);
+  height: 600px;
+  width: 140px;
+  position: absolute;
+  top: 240px;
+  left: 830px;
+  display: none;
+}
+.puertaE9 {
+  background-color: rgb(255, 145, 0);
+  height: 70px;
+  width: 48px;
+  position: absolute;
+  display: none;
+  top: 750px;
+  left: 490px;
+}
+.puertaAzul {
+  background-color: rgb(255, 145, 0);
+  height: 310px;
+  width: 120px;
+  position: absolute;
+  top: 360px;
+  left: 530px;
+  display: none;
+}
