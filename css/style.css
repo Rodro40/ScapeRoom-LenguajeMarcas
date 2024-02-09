@@ -1,0 +1,247 @@
+/* Fuente de fontspace.com, sólo para uso personal */
+@font-face {
+  font-family: "ComicKids-WyvKG";
+  src: url("../fonts/ComicKids-WyvKG.otf");
+}
+body {
+  background: radial-gradient(#712424, #2c337b);
+}
+.principal {
+  width: 1024px;
+  height: 1024px;
+  margin: auto;
+  background-image: url("../img/Scene1.png");
+  background-size:cover;
+  position: relative;
+  display: block;
+}
+.puertaE1 {
+  /*background-color: aqua;*/
+  height: 215px;
+  width: 133px;
+  position: absolute;
+  top: 580px;
+  left: 447px;
+  display: block;
+}
+.puertaE1:hover{
+  border: 5px rgba(255, 255, 255, 0.062) solid;
+  cursor: pointer;
+}
+.puertaE2 {
+  height: 265px;
+  width: 105px;
+  position: absolute;
+  top: 384px;
+  left: 460px;
+  display: none;
+}
+.puertaE2:hover{
+  border: 5px rgba(255, 255, 255, 0.089) solid;
+  cursor: pointer;
+}
+.puertaizqE3 {
+  height: 500px;
+  width: 50px;
+  position: absolute;
+  top: 290px;
+  left: 670px;
+  display: none;
+}
+.puertaizqE3:hover{
+  border: 5px rgba(255, 255, 255, 0.062) solid;
+  cursor: pointer;
+}
+.puertadchaE3 {
+  height: 500px;
+  width: 50px;
+  position: absolute;
+  top: 290px;
+  left: 320px;
+  display: none;
+}
+.puertadchaE3:hover{
+  border: 5px rgba(255, 255, 255, 0.062) solid;
+  cursor: pointer;
+}
+.puertaRoja {
+  height: 600px;
+  width: 120px;
+  position: absolute;
+  top: 240px;
+  left: 80px;
+  display: none;
+}
+.puertaRoja:hover{
+  border: 5px rgba(255, 255, 255, 0.062) solid;
+  cursor: pointer;
+}
+.puertaAzul {
+  height: 600px;
+  width: 140px;
+  position: absolute;
+  top: 240px;
+  left: 830px;
+  display: none;
+}
+.puertaAzul:hover{
+  border: 5px rgba(255, 255, 255, 0.062) solid;
+  cursor: pointer;
+}
+.puertaE6 {
+  height: 70px;
+  width: 50px;
+  position: absolute;
+  display: none;
+  top: 740px;
+  left: 488px;
+}
+.puertaE6:hover{
+  border: 5px rgba(255, 255, 255, 0.062) solid;
+  cursor: pointer;
+}
+.puertaE5 {
+  height: 310px;
+  width: 120px;
+  position: absolute;
+  top: 360px;
+  left: 530px;
+  display: none;
+}
+.puertaE5:hover{
+  border: 5px rgba(255, 255, 255, 0.062) solid;
+  cursor: pointer;
+}
+.puertaE7 {
+  height: 340px;
+  width: 230px;
+  position: absolute;
+  top: 400px;
+  left: 400px;
+  display: none;
+}
+.puertaE7:hover{
+  border: 5px rgba(255, 255, 255, 0.062) solid;
+  cursor: pointer;
+}
+.puertaE8 {
+ 
+  height: 300px;
+  width: 150px;
+  position: absolute;
+  top: 460px;
+  left: 440px;
+  display: none;
+}
+.puertaE8:hover{
+  border: 5px rgba(255, 255, 255, 0.062) solid;
+  cursor: pointer;
+}
+.puertaE9 {
+  background-color:cyan;
+  height: 400px;
+  width: 200px;
+  position: absolute;
+  top: 160px;
+  left: 480px;
+  display: none;
+}
+.puertaE9:hover{
+  border: 5px rgba(255, 255, 255, 0.062) solid;
+  cursor: pointer;
+}
+/*atras es la de la derecha*/
+.puertaAtrasE9 {
+  background-color:rgb(255, 115, 0);
+  height: 490px;
+  width: 250px;
+  position: absolute;
+  top: 160px;
+  left: 740px;
+  display: none;
+} 
+.puertaAtrasE9:hover{
+  border: 5px rgba(255, 255, 255, 0.062) solid;
+  cursor: pointer;
+}
+.puertaE10 {
+  background-color:cyan;
+  height: 490px;
+  width: 130px;
+  position: absolute;
+  top: 320px;
+  left: 350px;
+  display: none;
+}
+.puertaE10:hover{
+  border: 5px rgba(255, 255, 255, 0.062) solid;
+  cursor: pointer;
+}
+/*atras es la de la derecha*/
+.puertaAtrasE10 {
+  background-color:cyan;
+  height: 490px;
+  width: 150px;
+  position: absolute;
+  top: 320px;
+  left: 550px;
+  display: none;
+}
+.puertaAtrasE10:hover{
+  border: 5px rgba(255, 255, 255, 0.062) solid;
+  cursor: pointer;
+}
+.llaveE5{
+  background-color: rgb(255, 187, 0);
+  height: 100px;
+  width: 100px;
+  position: absolute;
+  top: 150px;
+  left: 900px;
+  display: none;
+}
+.linternaE7{
+  background-color: rgb(25, 0, 255);
+  height: 20px;
+  width: 50px;
+  position: absolute;
+  top: 220px;
+  left: 700px;
+  display: none;
+}
+.candadoE9 {
+  background-color:rgb(255, 230, 0);
+  height: 50px;
+  width: 50px;
+  position: absolute;
+  top: 390px;
+  left: 530px;
+  display: none;
+}
+.papelE9{
+  background-color: gray;
+  height: 50px;
+  width: 50px;
+  position: absolute;
+  top: 400px;
+  left: 685px;
+  display: none;
+}
+.candadoE10 {
+  background-color:cyan;
+  height: 960px;
+  width: 760px;
+  position: absolute;
+  top: 29px;
+  left: 140px;
+  display: none;
+}
+.msg{
+  background-color: white;
+  height: 50px;
+  width: 300px;
+  position: absolute;
+  top: 150px;
+  left: 500px;
+  display: none;
+}
