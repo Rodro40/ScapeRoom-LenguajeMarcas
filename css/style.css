@@ -125,7 +125,6 @@ body {
   cursor: pointer;
 }
 .puertaE8 {
- 
   height: 300px;
   width: 150px;
   position: absolute;
@@ -200,6 +199,10 @@ body {
   left: 900px;
   display: none;
 }
+.llaveE5:hover{
+  border: 5px rgba(255, 255, 255, 0.062) solid;
+  cursor: pointer;
+}
 .linternaE7{
   background-color: rgb(25, 0, 255);
   height: 20px;
@@ -208,6 +211,10 @@ body {
   top: 220px;
   left: 700px;
   display: none;
+}
+.linternaE7:hover{
+  border: 5px rgba(255, 255, 255, 0.062) solid;
+  cursor: pointer;
 }
 .candadoE9 {
   background-color:rgb(255, 230, 0);
@@ -218,6 +225,19 @@ body {
   left: 530px;
   display: none;
 }
+.candadoE9Big{
+  background-color: rgb(255, 230, 0);
+  height: 550px;
+  width: 550px;
+  position: absolute;
+  top: 150px;
+  left: 460px;
+  display: block;
+}
+.candadoE9:hover{
+  border: 5px rgba(255, 255, 255, 0.062) solid;
+  cursor: pointer;
+}
 .papelE9{
   background-color: gray;
   height: 50px;
@@ -226,6 +246,57 @@ body {
   top: 400px;
   left: 685px;
   display: none;
+}
+.papelE9:hover{
+  border: 5px rgba(255, 255, 255, 0.062) solid;
+  cursor: pointer;
+}
+.papelE9Big{
+  background-color: gray;
+  height: 550px;
+  width: 550px;
+  position: absolute;
+  top: 150px;
+  left: 460px;
+  display: block;
+}
+.papelE9BigBL{
+  text-align: center;
+  font-size: 70px;
+  color: blue;
+  background-color: gray;
+  height: 550px;
+  width: 550px;
+  position: absolute;
+  top: 150px;
+  left: 460px;
+  display: block;
+}
+.back{
+  background-color: rgb(255, 0, 0);
+  height: 50px;
+  width: 150px;
+  position: absolute;
+  top: 640px;
+  left: 835px;
+  display: none;
+}
+.back:hover{
+  border: 5px rgba(255, 255, 255, 0.062) solid;
+  cursor: pointer;
+}
+.back2{
+  background-color: rgb(255, 0, 0);
+  height: 50px;
+  width: 150px;
+  position: absolute;
+  top: 640px;
+  left: 835px;
+  display: none;
+}
+.back2:hover{
+  border: 5px rgba(255, 255, 255, 0.062) solid;
+  cursor: pointer;
 }
 .candadoE10 {
   background-color:cyan;

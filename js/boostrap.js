@@ -1,5 +1,7 @@
 var key = false;
 var linterna = false;
+var candadoE9 = true;
+var candadoE10 = true;
 
 function getLlave() {
     key = true;
@@ -9,9 +11,49 @@ function getLlave() {
 
 function getLinterna() {
     linterna = true;
-    document.getElementById("linterna").style.display = "none";
+    document.getElementById("linternaE7").style.display = "none";
 }
 
+function verPapelE9(){
+    if (linterna == true) {
+        document.getElementById("papelE9").classList.remove("papelE9");
+        document.getElementById("papelE9").classList.add("papelE9BigBL");
+        document.getElementById("papelE9").innerHTML = "3895";
+    } else {
+        document.getElementById("papelE9").classList.remove("papelE9");
+        document.getElementById("papelE9").classList.add("papelE9Big");
+    }
+    document.getElementById("back").style.display = "block";
+}
+
+function goBack(){
+    if (linterna == true) {
+        document.getElementById("papelE9").classList.remove("papelE9BigBL");
+        document.getElementById("papelE9").classList.add("papelE9");
+    } else {
+        document.getElementById("papelE9").classList.remove("papelE9Big");
+        document.getElementById("papelE9").classList.add("papelE9");
+    }
+    document.getElementById("papelE9").innerHTML = "";
+    document.getElementById("back").style.display = "none";
+}
+
+function abrirCandadoE9(){
+    document.getElementById("candadoE9").classList.remove("candadoE9");
+    document.getElementById("candadoE9").classList.add("candadoE9Big");
+    document.getElementById("back2").style.display = "block";
+    if (condition) {
+        
+    } else {
+        
+    }
+}
+
+function goBack2(){
+    document.getElementById("candadoE9").classList.remove("candadoE9Big");
+    document.getElementById("candadoE9").classList.add("candadoE9");
+    document.getElementById("back2").style.display = "none";
+}
 
 function entrarE2() {
     document.getElementById("principal").style.backgroundImage = "url(./img/Scene2.png)";
@@ -87,5 +129,10 @@ function entrarE9() {
     document.getElementById("puertaE9").style.display = "block"
     document.getElementById("puertaAtrasE9").style.display = "block"
     document.getElementById("papelE9").style.display = "block"
-    document.getElementById("candadoE9").style.display = "block";
+    if (candadoE9 == true) {
+        document.getElementById("candadoE9").style.display = "block";
+    }else {
+        document.getElementById("candadoE9").style.display = "none";
+    }
+    
 }
