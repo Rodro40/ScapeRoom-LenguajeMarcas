@@ -204,16 +204,20 @@ body {
   cursor: pointer;
 }
 .linternaE7{
-  background-color: rgb(25, 0, 255);
-  height: 20px;
+  background-image: url(../img/LinternaUV.png);
+  background-size: 40px 30px;
+  background-repeat: no-repeat;
+  height: 10px;
   width: 50px;
   position: absolute;
-  top: 220px;
+  top: 227px;
   left: 700px;
   display: none;
 }
 .linternaE7:hover{
   border: 5px rgba(255, 255, 255, 0.062) solid;
+  height: 30px;
+  width: 50px;
   cursor: pointer;
 }
 .candadoE9 {
@@ -225,6 +229,10 @@ body {
   left: 530px;
   display: none;
 }
+.candadoE9:hover{
+  border: 5px rgba(255, 255, 255, 0.062) solid;
+  cursor: pointer;
+}
 .candadoE9Big{
   background-color: rgb(255, 230, 0);
   height: 550px;
@@ -234,9 +242,40 @@ body {
   left: 460px;
   display: block;
 }
-.candadoE9:hover{
-  border: 5px rgba(255, 255, 255, 0.062) solid;
-  cursor: pointer;
+.dig1E9{
+  width: 20px;
+  position: absolute;
+  top: 500px;
+  left: 100px;
+  display: none;
+}
+.dig2E9{
+  width: 20px;
+  position: absolute;
+  top: 500px;
+  left: 150px;
+  display: none;
+}
+.dig3E9{
+  width: 20px;
+  position: absolute;
+  top: 500px;
+  left: 200px;
+  display: none;
+}
+.dig4E9{
+  width: 20px;
+  position: absolute;
+  top: 500px;
+  left: 250px;
+  display: none;
+}
+.enterE9{
+  width: 20px;
+  position: absolute;
+  top: 500px;
+  left: 300px;
+  display: none;
 }
 .papelE9{
   background-color: gray;
@@ -271,6 +310,15 @@ body {
   top: 150px;
   left: 460px;
   display: block;
+}
+.manoLinternaE9{
+  background-image: url(../img/LinternaUV-EnMano.png);
+  background-size: cover;
+  height: 240px;
+  width: 240px;
+  position: absolute;
+  top: 784px;
+  display: none;
 }
 .back{
   background-color: rgb(255, 0, 0);

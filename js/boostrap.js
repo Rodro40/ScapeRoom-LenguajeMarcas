@@ -45,10 +45,13 @@ function verPapelE9(){
     if (linterna == true) {
         document.getElementById("papelE9").classList.remove("papelE9");
         document.getElementById("papelE9").classList.add("papelE9BigBL");
+        document.getElementById("manoLinternaE9").style.display = "block";
+        document.getElementById("candadoE9").style.display = "none";
         document.getElementById("papelE9").innerHTML = "3895";
     } else {
         document.getElementById("papelE9").classList.remove("papelE9");
         document.getElementById("papelE9").classList.add("papelE9Big");
+        document.getElementById("candadoE9").style.display = "none";
     }
     document.getElementById("back").style.display = "block";
 }
@@ -63,12 +66,18 @@ function goBack(){
     }
     document.getElementById("papelE9").innerHTML = "";
     document.getElementById("back").style.display = "none";
+    document.getElementById("candadoE9").style.display = "block";
 }
 
 function abrirCandadoE9(){
     document.getElementById("candadoE9").classList.remove("candadoE9");
     document.getElementById("candadoE9").classList.add("candadoE9Big");
     document.getElementById("back2").style.display = "block";
+    document.getElementById("dig1E9").style.display = "block";
+    document.getElementById("dig2E9").style.display = "block";
+    document.getElementById("dig3E9").style.display = "block";
+    document.getElementById("dig4E9").style.display = "block";
+    document.getElementById("enterE9").style.display = "block";
     if (condition) {
         
     } else {
@@ -80,6 +89,11 @@ function goBack2(){
     document.getElementById("candadoE9").classList.remove("candadoE9Big");
     document.getElementById("candadoE9").classList.add("candadoE9");
     document.getElementById("back2").style.display = "none";
+    document.getElementById("dig1E9").style.display = "none";
+    document.getElementById("dig2E9").style.display = "none";
+    document.getElementById("dig3E9").style.display = "none";
+    document.getElementById("dig4E9").style.display = "none";
+    document.getElementById("enterE9").style.display = "none";
 }
 
 function entrarE2() {
