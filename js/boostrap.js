@@ -3,33 +3,6 @@ var linterna = false;
 var candadoE9 = true;
 var candadoE10 = true;
 
-//Para el candado de colores
-function introCode() {
-
-    if(document.getElementById("dig1") == 3 && document.getElementById("dig2") == 6 && document.getElementById("dig3") == 10 && document.getElementById("dig4") == 5 &&document.getElementById("dig5") == 4 ){
-    console.log("Código correcto");
-    document.getElementById("dig1").style.display = "none ";
-    document.getElementById("dig2").style.display = "none";
-    document.getElementById("dig3").style.display = "none";
-    document.getElementById("dig4").style.display = "none";
-    document.getElementById("dig5").style.display = "none";
-    document.getElementById("boton").style.display = "none";
-
-    document.getElementById("principal").style.backgroundImage = "url(./img/Scene1.png)";
-    document.getElementById("puertaE10").style.display = "none";
-    document.getElementById("parrafo1").innerHTML = "Uffff...";
-    document.getElementById("parrafo2").innerHTML = "Menos mal, ya estoy fuera";
-    document.getElementById("parrafo3").innerHTML = "Que raro ha sido todo eso...";
-    
-    } else {
-    
-    console.log("Código incorrecto");
-    document.getElementById("parrafol").innerHTML = "No parece ser esta, ¿me habre dejado algo?";
-    document.getElementById("parrafo2").innerHTML = "Hay colores, ¿deberan de coincidir con algo?";
-    document.getElementById("parrafo3").innerHTML = "";
-    }
-}
-
 function getLlave() {
     key = true;
     document.getElementById("llaveE5").style.display = "none";
@@ -41,22 +14,22 @@ function getLinterna() {
     document.getElementById("linternaE7").style.display = "none";
 }
 
-function verPapelE9(){
+function verPapelE9() {
     if (linterna == true) {
         document.getElementById("papelE9").classList.remove("papelE9");
         document.getElementById("papelE9").classList.add("papelE9BigBL");
         document.getElementById("manoLinternaE9").style.display = "block";
         document.getElementById("candadoE9").style.display = "none";
-        document.getElementById("papelE9").innerHTML = "3895";
     } else {
         document.getElementById("papelE9").classList.remove("papelE9");
         document.getElementById("papelE9").classList.add("papelE9Big");
         document.getElementById("candadoE9").style.display = "none";
     }
     document.getElementById("back").style.display = "block";
+    document.getElementById("msg").style.display = "none";
 }
 
-function goBack(){
+function goBack() {
     if (linterna == true) {
         document.getElementById("papelE9").classList.remove("papelE9BigBL");
         document.getElementById("papelE9").classList.add("papelE9");
@@ -66,34 +39,90 @@ function goBack(){
     }
     document.getElementById("papelE9").innerHTML = "";
     document.getElementById("back").style.display = "none";
+    document.getElementById("manoLinternaE9").style.display = "none";
     document.getElementById("candadoE9").style.display = "block";
 }
 
-function abrirCandadoE9(){
+function abrirCandadoE9() {
+    document.getElementById("msg").style.display = "none";
     document.getElementById("candadoE9").classList.remove("candadoE9");
     document.getElementById("candadoE9").classList.add("candadoE9Big");
     document.getElementById("back2").style.display = "block";
     document.getElementById("dig1E9").style.display = "block";
     document.getElementById("dig2E9").style.display = "block";
     document.getElementById("dig3E9").style.display = "block";
-    document.getElementById("dig4E9").style.display = "block";
     document.getElementById("enterE9").style.display = "block";
-    if (condition) {
-        
+}
+
+function introCodeE9() {
+    if (parseInt(document.getElementById("dig1E9").value) == 3 && parseInt(document.getElementById("dig2E9").value) == 8 && parseInt(document.getElementById("dig3E9").value) == 9) {
+        candadoE9 = false;
+        document.getElementById("candadoE9").style.display = "none";
+        document.getElementById("back2").style.display = "none";
+        document.getElementById("dig1E9").style.display = "none";
+        document.getElementById("dig2E9").style.display = "none";
+        document.getElementById("dig3E9").style.display = "none";
+        document.getElementById("enterE9").style.display = "none";
+        document.getElementById("msg").style.display = "none";
     } else {
-        
+        document.getElementById("msg").style.display = "block";
+        document.getElementById("msg").innerHTML = "Esa combinación es erronea, debería buscar mas pistas que me digan cual es la combinación correcta";
     }
 }
 
-function goBack2(){
+function goBack2() {
     document.getElementById("candadoE9").classList.remove("candadoE9Big");
     document.getElementById("candadoE9").classList.add("candadoE9");
     document.getElementById("back2").style.display = "none";
     document.getElementById("dig1E9").style.display = "none";
     document.getElementById("dig2E9").style.display = "none";
     document.getElementById("dig3E9").style.display = "none";
-    document.getElementById("dig4E9").style.display = "none";
     document.getElementById("enterE9").style.display = "none";
+    document.getElementById("msg").style.display = "none";
+}
+
+function abrirCandadoE10() {
+    document.getElementById("msg").style.display = "none";
+    document.getElementById("candadoE10").classList.remove("candadoE10");
+    document.getElementById("candadoE10").classList.add("candadoE10Big");
+    document.getElementById("back3").style.display = "block";
+    document.getElementById("dig1E10").style.display = "block";
+    document.getElementById("dig2E10").style.display = "block";
+    document.getElementById("dig3E10").style.display = "block";
+    document.getElementById("dig4E10").style.display = "block";
+    document.getElementById("dig5E10").style.display = "block";
+    document.getElementById("enterE10").style.display = "block";
+}
+
+function introCodeE10() {
+    if (parseInt(document.getElementById("dig1E10").value) == 3 && parseInt(document.getElementById("dig2E10").value) == 6 && parseInt(document.getElementById("dig3E10").value) == 10 && parseInt(document.getElementById("dig4E10").value) == 5 && parseInt(document.getElementById("dig5E10").value) == 4) {
+        candadoE10 = false;
+        document.getElementById("candadoE10").style.display = "none";
+        document.getElementById("back3").style.display = "none";
+        document.getElementById("dig1E10").style.display = "none";
+        document.getElementById("dig2E10").style.display = "none";
+        document.getElementById("dig3E10").style.display = "none";
+        document.getElementById("dig4E10").style.display = "none";
+        document.getElementById("dig5E10").style.display = "none";
+        document.getElementById("enterE10").style.display = "none";
+        document.getElementById("msg").style.display = "none";
+    } else {
+        document.getElementById("msg").style.display = "block";
+        document.getElementById("msg").innerHTML = "Esa combinación es erronea, debería buscar mas pistas que me digan cual es la combinación correcta";
+    }
+}
+
+function goBack3() {
+    document.getElementById("msg").style.display = "none";
+    document.getElementById("candadoE10").classList.remove("candadoE10Big");
+    document.getElementById("candadoE10").classList.add("candadoE10");
+    document.getElementById("back3").style.display = "none";
+    document.getElementById("dig1E10").style.display = "none";
+    document.getElementById("dig2E10").style.display = "none";
+    document.getElementById("dig3E10").style.display = "none";
+    document.getElementById("dig4E10").style.display = "none";
+    document.getElementById("dig5E10").style.display = "none";
+    document.getElementById("enterE10").style.display = "none";
 }
 
 function entrarE2() {
@@ -112,7 +141,9 @@ function entrarE3() {
     document.getElementById("papelE9").style.display = "none";
     document.getElementById("candadoE9").style.display = "none";
     document.getElementById("puertaAtrasE9").style.display = "none";
+    document.getElementById("msg").style.display = "none";
     document.getElementById("puertaE10").style.display = "none";
+    document.getElementById("puertaAtrasE10").style.display = "none";
     document.getElementById("puertaizqE3").style.display = "block";
     document.getElementById("puertadchaE3").style.display = "block";
 }
@@ -172,8 +203,40 @@ function entrarE9() {
     document.getElementById("papelE9").style.display = "block"
     if (candadoE9 == true) {
         document.getElementById("candadoE9").style.display = "block";
-    }else {
+    } else {
         document.getElementById("candadoE9").style.display = "none";
     }
-    
 }
+
+function entrarE10() {
+    if (candadoE9 == false) {
+        document.getElementById("puertaE9").style.display = "none";
+        document.getElementById("papelE9").style.display = "none";
+        document.getElementById("puertaAtrasE9").style.display = "none";
+        document.getElementById("principal").style.backgroundImage = "url(./img/Scene10.jpeg)";
+        document.getElementById("puertaE10").style.display = "block";
+        document.getElementById("puertaAtrasE10").style.display = "block";
+        if (candadoE10 == true) {
+            document.getElementById("candadoE10").style.display = "block";
+        } else {
+            document.getElementById("candadoE10").style.display = "none";
+        }
+    } else {
+        document.getElementById("msg").style.display = "block";
+        document.getElementById("msg").innerHTML = "Necesito quitar primero ese candado";
+    }
+}
+
+function FIN(){
+    if (candadoE10 == true) {
+        document.getElementById("msg").style.display = "block";
+        document.getElementById("msg").innerHTML = "Necesito quitar primero ese candado";
+    } else {
+        document.getElementById("principal").style.backgroundImage = "none";
+        document.getElementById("principal").style.backgroundColor = "black";
+        document.getElementById("puertaE10").style.display = "none";
+        document.getElementById("puertaAtrasE10").style.display = "none";
+        document.getElementById("msgFin").style.display = "block";
+    }
+}
+

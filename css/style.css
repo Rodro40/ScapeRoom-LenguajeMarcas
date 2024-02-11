@@ -1,8 +1,3 @@
-/* Fuente de fontspace.com, sólo para uso personal */
-@font-face {
-  font-family: "Autography";
-  src: url(../font/Autography.otf);
-}
 body {
   background: radial-gradient(#712424, #2c337b);
 }
@@ -16,7 +11,6 @@ body {
   display: block;
 }
 .puertaE1 {
-  /*background-color: aqua;*/
   height: 215px;
   width: 133px;
   position: absolute;
@@ -43,10 +37,10 @@ body {
   background-color: rgba(255, 255, 255, 0.062);
 }
 .puertaizqE3 {
-  height: 480px;
-  width: 30px;
+  height: 470px;
+  width: 35px;
   position: absolute;
-  top: 270px;
+  top: 280px;
   left: 670px;
   display: none;
 }
@@ -54,10 +48,9 @@ body {
   border: 5px rgba(255, 255, 255, 0.062) solid;
   cursor: pointer;
   background-color: rgba(255, 255, 255, 0.062);
-
 }
 .puertadchaE3 {
-  height: 448px;
+  height: 450px;
   width: 30px;
   position: absolute;
   top: 280px;
@@ -71,11 +64,11 @@ body {
 
 }
 .puertaRoja {
-  height: 567px;
-  width: 120px;
+  height: 500px;
+  width: 100px;
   position: absolute;
-  top: 240px;
-  left: 70px;
+  top: 290px;
+  left: 75px;
   display: none;
 }
 .puertaRoja:hover{
@@ -84,11 +77,11 @@ body {
   background-color: rgba(232, 229, 182, 0.163);
 }
 .puertaAzul {
-  height: 561px;
-  width: 116px;
+  height: 500px;
+  width: 100px;
   position: absolute;
-  top: 250px;
-  left: 826px;
+  top: 290px;
+  left: 840px;
   display: none;
 }
 .puertaAzul:hover{
@@ -97,24 +90,23 @@ body {
   background-color: rgba(232, 229, 182, 0.163);
 }
 .puertaE6 {
-  height: 70px;
-  width: 40px;
+  height: 65px;
+  width: 42px;
   position: absolute;
   display: none;
-  top: 740px;
+  top: 742px;
   left: 488px;
 }
 .puertaE6:hover{
-  border: 5px rgba(255, 255, 255, 0.062) solid;
   cursor: pointer;
-  background-color: rgba(201, 193, 84, 0.245);
+  background-color: rgba(63, 63, 63, 0.205);
 }
 .puertaE5 {
-  height: 317px;
-  width: 102px;
+  height: 310px;
+  width: 110px;
   position: absolute;
-  top: 352px;
-  left: 525px;
+  top: 350px;
+  left: 520px;
   display: none;
 }
 .puertaE5:hover{
@@ -123,8 +115,8 @@ body {
   background-color: rgba(255, 255, 255, 0.062);
 }
 .puertaE7 {
-  height: 330px;
-  width: 220px;
+  height: 340px;
+  width: 215px;
   position: absolute;
   top: 400px;
   left: 400px;
@@ -132,6 +124,8 @@ body {
 }
 .puertaE7:hover{
   border: 5px rgba(255, 255, 255, 0.062) solid;
+  border-top-left-radius: 30px;
+  border-top-right-radius: 30px;
   cursor: pointer;
   background-color: rgba(255, 255, 255, 0.062);
 }
@@ -150,10 +144,10 @@ body {
 }
 .puertaE9 {
   height: 400px;
-  width: 182px;
+  width: 200px;
   position: absolute;
-  top: 176px;
-  left: 495px;
+  top: 160px;
+  left: 480px;
   display: none;
 }
 .puertaE9:hover{
@@ -162,7 +156,6 @@ body {
   cursor: pointer;
   background-color: rgba(255, 255, 255, 0.127);
 }
-/*atras es la de la derecha*/
 .puertaAtrasE9 {
   height: 490px;
   width: 250px;
@@ -178,7 +171,6 @@ body {
   background-color: rgba(255, 255, 255, 0.204);
 }
 .puertaE10 {
-  background-color:cyan;
   height: 490px;
   width: 130px;
   position: absolute;
@@ -191,9 +183,7 @@ body {
   cursor: pointer;
   background-color: rgba(255, 255, 255, 0.062);
 }
-/*atras es la de la derecha*/
 .puertaAtrasE10 {
-  background-color:cyan;
   height: 490px;
   width: 150px;
   position: absolute;
@@ -238,68 +228,65 @@ body {
   height: 30px;
   width: 50px;
   cursor: pointer;
-  background-color: rgba(255, 255, 255, 0.062);
 }
 .candadoE9 {
-  background-color:rgb(255, 230, 0);
-  height: 50px;
-  width: 50px;
+  background-image: url("../img/CandadoCombinacion.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 70px;
+  width: 70px;
   position: absolute;
-  top: 390px;
-  left: 530px;
+  top: 370px;
+  left: 520px;
   display: none;
 }
 .candadoE9:hover{
   border: 5px rgba(255, 255, 255, 0.062) solid;
   cursor: pointer;
-  background-color: rgba(255, 255, 255, 0.062);
 }
 .candadoE9Big{
-  background-color: rgb(255, 230, 0);
+  background-image: url("../img/CandadoCombinacion.png");
+  background-size: cover;
+  background-repeat: no-repeat;
   height: 550px;
-  width: 550px;
+  width: 551px;
   position: absolute;
   top: 150px;
   left: 460px;
   display: block;
 }
 .dig1E9{
-  width: 20px;
+  width: 29px;
   position: absolute;
-  top: 500px;
-  left: 100px;
+  top: 490px;
+  left: 657px;
   display: none;
 }
 .dig2E9{
-  width: 20px;
+  width: 29px;
   position: absolute;
-  top: 500px;
-  left: 150px;
+  top: 490px;
+  left: 713px;
   display: none;
 }
 .dig3E9{
-  width: 20px;
+  width: 29px;
   position: absolute;
-  top: 500px;
-  left: 200px;
-  display: none;
-}
-.dig4E9{
-  width: 20px;
-  position: absolute;
-  top: 500px;
-  left: 250px;
+  top: 490px;
+  left: 771px;
   display: none;
 }
 .enterE9{
-  width: 20px;
+  width: 60px;
   position: absolute;
-  top: 500px;
-  left: 300px;
+  top: 615px;
+  left: 702px;
   display: none;
 }
 .papelE9{
-  background-color: gray;
+  background-image: url("../img/Papel.png");
+  background-size: cover;
+  background-repeat: no-repeat;
   height: 50px;
   width: 50px;
   position: absolute;
@@ -310,11 +297,11 @@ body {
 .papelE9:hover{
   border: 5px rgba(255, 255, 255, 0.062) solid;
   cursor: pointer;
-  background-color: rgba(255, 255, 255, 0.062);
-
 }
 .papelE9Big{
-  background-color: gray;
+  background-image: url("../img/Papel.png");
+  background-size: cover;
+  background-repeat: no-repeat;
   height: 550px;
   width: 550px;
   position: absolute;
@@ -323,11 +310,10 @@ body {
   display: block;
 }
 .papelE9BigBL{
-  font-family: "Autography";
-  text-align: center;
   font-size: 70px;
-  color: blue;
-  background-color: gray;
+  background-image: url("../img/PapelBL.png");
+  background-size: cover;
+  background-repeat: no-repeat;
   height: 550px;
   width: 550px;
   position: absolute;
@@ -345,9 +331,10 @@ body {
   display: none;
 }
 .back{
-  background-color: rgb(255, 0, 0);
-  height: 50px;
-  width: 150px;
+  background-color: rgb(255, 255, 255);
+  text-align: center;
+  height: 40px;
+  width: 100px;
   position: absolute;
   top: 640px;
   left: 835px;
@@ -356,13 +343,12 @@ body {
 .back:hover{
   border: 5px rgba(255, 255, 255, 0.062) solid;
   cursor: pointer;
-  background-color: rgba(255, 255, 255, 0.062);
-
 }
 .back2{
-  background-color: rgb(255, 0, 0);
-  height: 50px;
-  width: 150px;
+  background-color: rgb(255, 255, 255);
+  text-align: center;
+  height: 40px;
+  width: 100px;
   position: absolute;
   top: 640px;
   left: 835px;
@@ -371,23 +357,106 @@ body {
 .back2:hover{
   border: 5px rgba(255, 255, 255, 0.062) solid;
   cursor: pointer;
-  background-color: rgba(255, 255, 255, 0.062);
 }
-.candadoE10 {
-  background-color:cyan;
-  height: 960px;
-  width: 760px;
+.back3{
+  background-color: rgb(255, 255, 255);
+  text-align: center;
+  height: 40px;
+  width: 100px;
   position: absolute;
-  top: 29px;
-  left: 140px;
+  top: 810px;
+  left: 590px;
   display: none;
+}
+.back3:hover{
+  border: 5px rgba(255, 255, 255, 0.062) solid;
+  cursor: pointer;
 }
 .msg{
   background-color: white;
+  text-align: center;
   height: 50px;
-  width: 300px;
+  width: 600px;
   position: absolute;
-  top: 150px;
+  top: 100px;
+  left: 400px;
+  display: none;
+}
+.candadoE10 {
+  background-image: url("../img/CandadoColores.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 70px;
+  width: 70px;
+  position: absolute;
+  top: 650px;
+  left: 375px;
+  display: none;
+}
+.candadoE10:hover{
+  border: 5px rgba(255, 255, 255, 0.062) solid;
+  cursor: pointer;
+}
+.candadoE10Big{
+  background-image: url("../img/CandadoColores.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 560px;
+  width: 560px;
+  position: absolute;
+  top: 280px;
+  left: 240px;
+  display: block;
+}
+.dig1E10{
+  width: 29px;
+  position: absolute;
+  top: 550px;
+  left: 449px;
+  display: none;
+}
+.dig2E10{
+  width: 29px;
+  position: absolute;
+  top: 550px;
+  left: 570px;
+  display: none;
+}
+.dig3E10{
+  width: 29px;
+  position: absolute;
+  top: 635px;
+  left: 510px;
+  display: none;
+}
+.dig4E10{
+  width: 29px;
+  position: absolute;
+  top: 715px;
+  left: 449px;
+  display: none;
+}
+.dig5E10{
+  width: 29px;
+  position: absolute;
+  top: 715px;
+  left: 570px;
+  display: none;
+}
+.enterE10{
+  width: 60px;
+  position: absolute;
+  top: 810px;
   left: 500px;
+  display: none;
+}
+.msgFin{
+  background-color: white;
+  text-align: center;
+  position: absolute;
+  width: 500px;
+  height: 500px;
+  top: 390px;
+  left: 250px;
   display: none;
 }
