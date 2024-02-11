@@ -1,7 +1,7 @@
 /* Fuente de fontspace.com, sólo para uso personal */
 @font-face {
-  font-family: "ComicKids-WyvKG";
-  src: url("../fonts/ComicKids-WyvKG.otf");
+  font-family: "Autography";
+  src: url(../font/Autography.otf);
 }
 body {
   background: radial-gradient(#712424, #2c337b);
@@ -27,6 +27,7 @@ body {
 .puertaE1:hover{
   border: 5px rgba(255, 255, 255, 0.062) solid;
   cursor: pointer;
+  background-color: rgba(255, 255, 255, 0.062);
 }
 .puertaE2 {
   height: 265px;
@@ -39,58 +40,65 @@ body {
 .puertaE2:hover{
   border: 5px rgba(255, 255, 255, 0.089) solid;
   cursor: pointer;
+  background-color: rgba(255, 255, 255, 0.062);
 }
 .puertaizqE3 {
-  height: 500px;
-  width: 50px;
+  height: 480px;
+  width: 30px;
   position: absolute;
-  top: 290px;
+  top: 270px;
   left: 670px;
   display: none;
 }
 .puertaizqE3:hover{
   border: 5px rgba(255, 255, 255, 0.062) solid;
   cursor: pointer;
+  background-color: rgba(255, 255, 255, 0.062);
+
 }
 .puertadchaE3 {
-  height: 500px;
-  width: 50px;
+  height: 448px;
+  width: 30px;
   position: absolute;
-  top: 290px;
+  top: 280px;
   left: 320px;
   display: none;
 }
 .puertadchaE3:hover{
   border: 5px rgba(255, 255, 255, 0.062) solid;
   cursor: pointer;
+  background-color: rgba(255, 255, 255, 0.062);
+
 }
 .puertaRoja {
-  height: 600px;
+  height: 567px;
   width: 120px;
   position: absolute;
   top: 240px;
-  left: 80px;
+  left: 70px;
   display: none;
 }
 .puertaRoja:hover{
   border: 5px rgba(255, 255, 255, 0.062) solid;
   cursor: pointer;
+  background-color: rgba(232, 229, 182, 0.163);
 }
 .puertaAzul {
-  height: 600px;
-  width: 140px;
+  height: 561px;
+  width: 116px;
   position: absolute;
-  top: 240px;
-  left: 830px;
+  top: 250px;
+  left: 826px;
   display: none;
 }
 .puertaAzul:hover{
   border: 5px rgba(255, 255, 255, 0.062) solid;
   cursor: pointer;
+  background-color: rgba(232, 229, 182, 0.163);
 }
 .puertaE6 {
   height: 70px;
-  width: 50px;
+  width: 40px;
   position: absolute;
   display: none;
   top: 740px;
@@ -99,22 +107,24 @@ body {
 .puertaE6:hover{
   border: 5px rgba(255, 255, 255, 0.062) solid;
   cursor: pointer;
+  background-color: rgba(201, 193, 84, 0.245);
 }
 .puertaE5 {
-  height: 310px;
-  width: 120px;
+  height: 317px;
+  width: 102px;
   position: absolute;
-  top: 360px;
-  left: 530px;
+  top: 352px;
+  left: 525px;
   display: none;
 }
 .puertaE5:hover{
   border: 5px rgba(255, 255, 255, 0.062) solid;
   cursor: pointer;
+  background-color: rgba(255, 255, 255, 0.062);
 }
 .puertaE7 {
-  height: 340px;
-  width: 230px;
+  height: 330px;
+  width: 220px;
   position: absolute;
   top: 400px;
   left: 400px;
@@ -123,6 +133,7 @@ body {
 .puertaE7:hover{
   border: 5px rgba(255, 255, 255, 0.062) solid;
   cursor: pointer;
+  background-color: rgba(255, 255, 255, 0.062);
 }
 .puertaE8 {
   height: 300px;
@@ -135,23 +146,24 @@ body {
 .puertaE8:hover{
   border: 5px rgba(255, 255, 255, 0.062) solid;
   cursor: pointer;
+  background-color: rgba(255, 255, 255, 0.062);
 }
 .puertaE9 {
-  background-color:cyan;
   height: 400px;
-  width: 200px;
+  width: 182px;
   position: absolute;
-  top: 160px;
-  left: 480px;
+  top: 176px;
+  left: 495px;
   display: none;
 }
 .puertaE9:hover{
   border: 5px rgba(255, 255, 255, 0.062) solid;
+  border-radius: 110px 90px 10px 5px;
   cursor: pointer;
+  background-color: rgba(255, 255, 255, 0.127);
 }
 /*atras es la de la derecha*/
 .puertaAtrasE9 {
-  background-color:rgb(255, 115, 0);
   height: 490px;
   width: 250px;
   position: absolute;
@@ -161,7 +173,9 @@ body {
 } 
 .puertaAtrasE9:hover{
   border: 5px rgba(255, 255, 255, 0.062) solid;
+  border-radius: 110px 90px 10px 5px;
   cursor: pointer;
+  background-color: rgba(255, 255, 255, 0.204);
 }
 .puertaE10 {
   background-color:cyan;
@@ -175,6 +189,7 @@ body {
 .puertaE10:hover{
   border: 5px rgba(255, 255, 255, 0.062) solid;
   cursor: pointer;
+  background-color: rgba(255, 255, 255, 0.062);
 }
 /*atras es la de la derecha*/
 .puertaAtrasE10 {
@@ -189,19 +204,23 @@ body {
 .puertaAtrasE10:hover{
   border: 5px rgba(255, 255, 255, 0.062) solid;
   cursor: pointer;
+  background-color: rgba(255, 255, 255, 0.062);
 }
 .llaveE5{
-  background-color: rgb(255, 187, 0);
-  height: 100px;
-  width: 100px;
+  background-image: url(../img/Llave1.png);
+  background-repeat: no-repeat;
+  background-size: 30px 30px;
+  height: 33px;
+  width: 31px;
   position: absolute;
-  top: 150px;
-  left: 900px;
+  top: 233px;
+  left: 890px;
   display: none;
 }
 .llaveE5:hover{
   border: 5px rgba(255, 255, 255, 0.062) solid;
   cursor: pointer;
+  background-color: rgba(255, 255, 255, 0.062);
 }
 .linternaE7{
   background-image: url(../img/LinternaUV.png);
@@ -219,6 +238,7 @@ body {
   height: 30px;
   width: 50px;
   cursor: pointer;
+  background-color: rgba(255, 255, 255, 0.062);
 }
 .candadoE9 {
   background-color:rgb(255, 230, 0);
@@ -232,6 +252,7 @@ body {
 .candadoE9:hover{
   border: 5px rgba(255, 255, 255, 0.062) solid;
   cursor: pointer;
+  background-color: rgba(255, 255, 255, 0.062);
 }
 .candadoE9Big{
   background-color: rgb(255, 230, 0);
@@ -289,6 +310,8 @@ body {
 .papelE9:hover{
   border: 5px rgba(255, 255, 255, 0.062) solid;
   cursor: pointer;
+  background-color: rgba(255, 255, 255, 0.062);
+
 }
 .papelE9Big{
   background-color: gray;
@@ -300,6 +323,7 @@ body {
   display: block;
 }
 .papelE9BigBL{
+  font-family: "Autography";
   text-align: center;
   font-size: 70px;
   color: blue;
@@ -332,6 +356,8 @@ body {
 .back:hover{
   border: 5px rgba(255, 255, 255, 0.062) solid;
   cursor: pointer;
+  background-color: rgba(255, 255, 255, 0.062);
+
 }
 .back2{
   background-color: rgb(255, 0, 0);
@@ -345,6 +371,7 @@ body {
 .back2:hover{
   border: 5px rgba(255, 255, 255, 0.062) solid;
   cursor: pointer;
+  background-color: rgba(255, 255, 255, 0.062);
 }
 .candadoE10 {
   background-color:cyan;
