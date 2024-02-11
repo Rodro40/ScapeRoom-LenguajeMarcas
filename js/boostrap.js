@@ -3,6 +3,33 @@ var linterna = false;
 var candadoE9 = true;
 var candadoE10 = true;
 
+//Para el candado de colores
+function introCode() {
+
+    if(document.getElementById("dig1") == 3 && document.getElementById("dig2") == 6 && document.getElementById("dig3") == 10 && document.getElementById("dig4") == 5 &&document.getElementById("dig5") == 4 ){
+    console.log("Código correcto");
+    document.getElementById("dig1").style.display = "none ";
+    document.getElementById("dig2").style.display = "none";
+    document.getElementById("dig3").style.display = "none";
+    document.getElementById("dig4").style.display = "none";
+    document.getElementById("dig5").style.display = "none";
+    document.getElementById("boton").style.display = "none";
+
+    document.getElementById("principal").style.backgroundImage = "url(./img/Scene1.png)";
+    document.getElementById("puertaE10").style.display = "none";
+    document.getElementById("parrafo1").innerHTML = "Uffff...";
+    document.getElementById("parrafo2").innerHTML = "Menos mal, ya estoy fuera";
+    document.getElementById("parrafo3").innerHTML = "Que raro ha sido todo eso...";
+    
+    } else {
+    
+    console.log("Código incorrecto");
+    document.getElementById("parrafol").innerHTML = "No parece ser esta, ¿me habre dejado algo?";
+    document.getElementById("parrafo2").innerHTML = "Hay colores, ¿deberan de coincidir con algo?";
+    document.getElementById("parrafo3").innerHTML = "";
+    }
+}
+
 function getLlave() {
     key = true;
     document.getElementById("llaveE5").style.display = "none";
