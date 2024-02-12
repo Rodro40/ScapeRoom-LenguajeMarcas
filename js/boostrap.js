@@ -240,7 +240,7 @@ function FIN(){
         document.getElementById("msg").style.display = "block";
         document.getElementById("msg").innerHTML = "Necesito quitar primero ese candado";
     } else {
-        document.getElementById("principal").style.backgroundImage = "none";
+        document.getElementById("principal").style.backgroundImage = "url(./img/Scene11.jpeg)";
         document.getElementById("principal").style.backgroundColor = "black";
         document.getElementById("puertaE10").style.display = "none";
         document.getElementById("puertaAtrasE10").style.display = "none";
