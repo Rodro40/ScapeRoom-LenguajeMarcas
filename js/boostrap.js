@@ -102,7 +102,7 @@ function abrirCandadoE10() {
 }
 
 function introCodeE10() {
-    if (parseInt(document.getElementById("dig1E10").value) == 3 && parseInt(document.getElementById("dig2E10").value) == 6 && parseInt(document.getElementById("dig3E10").value) == 10 && parseInt(document.getElementById("dig4E10").value) == 5 && parseInt(document.getElementById("dig5E10").value) == 4) {
+    if (parseInt(document.getElementById("dig1E10").value) == 3 && parseInt(document.getElementById("dig2E10").value) == 6 && parseInt(document.getElementById("dig3E10").value) == 5 && parseInt(document.getElementById("dig4E10").value) == 5 && parseInt(document.getElementById("dig5E10").value) == 4) {
         candadoE10 = false;
         document.getElementById("candadoE10").style.display = "none";
         document.getElementById("back3").style.display = "none";
