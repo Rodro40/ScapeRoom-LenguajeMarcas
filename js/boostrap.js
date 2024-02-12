@@ -37,17 +37,15 @@ function goBack() {
         document.getElementById("papelE9").classList.remove("papelE9Big");
         document.getElementById("papelE9").classList.add("papelE9");
     }
-    
+
     if (candadoE9 == false) {
         document.getElementById("candadoE9").style.display = "none";
     } else {
         document.getElementById("candadoE9").style.display = "block";
 
     }
-    document.getElementById("papelE9").innerHTML = "";
     document.getElementById("back").style.display = "none";
     document.getElementById("manoLinternaE9").style.display = "none";
-    document.getElementById("candadoE9").style.display = "block";
 }
 
 function abrirCandadoE9() {
@@ -73,7 +71,7 @@ function introCodeE9() {
         document.getElementById("msg").style.display = "none";
     } else {
         document.getElementById("msg").style.display = "block";
-        document.getElementById("msg").innerHTML = "Hmmmm... Parece que así no es... Colores, algo con colores";
+        document.getElementById("msg").innerHTML = "Esa combinación es erronea, debería buscar mas pistas que me digan cual es la combinación correcta";
     }
 }
 
@@ -115,7 +113,8 @@ function introCodeE10() {
         document.getElementById("msg").style.display = "none";
     } else {
         document.getElementById("msg").style.display = "block";
-        document.getElementById("msg").innerHTML = "Esa combinación es erronea, debería buscar mas pistas que me digan cual es la combinación correcta";
+        document.getElementById("msg").innerHTML = "Hmmmm... Parece que así no es... Colores, algo con colores";
+
     }
 }
 
@@ -235,7 +234,7 @@ function entrarE10() {
     }
 }
 
-function FIN(){
+function FIN() {
     if (candadoE10 == true) {
         document.getElementById("msg").style.display = "block";
         document.getElementById("msg").innerHTML = "Necesito quitar primero ese candado";
