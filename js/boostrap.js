@@ -12,6 +12,7 @@ function getLlave() {
 function getLinterna() {
     linterna = true;
     document.getElementById("linternaE7").style.display = "none";
+    document.getElementById("msg").innerHTML = "Supongo que esta linterna podría ayudarme a encontrar alguna pista";
 }
 
 function verPapelE9() {
@@ -71,7 +72,7 @@ function introCodeE9() {
         document.getElementById("msg").style.display = "none";
     } else {
         document.getElementById("msg").style.display = "block";
-        document.getElementById("msg").innerHTML = "Esa combinación es erronea, debería buscar mas pistas que me digan cual es la combinación correcta";
+        document.getElementById("msg").innerHTML = "Esa combinación es erronea, quizás la nota oculte alguna pista";
     }
 }
 
@@ -97,6 +98,8 @@ function abrirCandadoE10() {
     document.getElementById("dig4E10").style.display = "block";
     document.getElementById("dig5E10").style.display = "block";
     document.getElementById("enterE10").style.display = "block";
+    document.getElementById("msg").style.display = "block";
+    document.getElementById("msg").innerHTML = "Hmmmm...Números y colores. ¿Qué podrá ser?";
 }
 
 function introCodeE10() {
@@ -113,7 +116,7 @@ function introCodeE10() {
         document.getElementById("msg").style.display = "none";
     } else {
         document.getElementById("msg").style.display = "block";
-        document.getElementById("msg").innerHTML = "Hmmmm... Parece que así no es... Colores, algo con colores";
+        document.getElementById("msg").innerHTML = "Definitivamente esa convinación no es. ¿Tendrá algo que ver esta figura sobre la puerta?";
 
     }
 }
@@ -135,14 +138,7 @@ function entrarE2() {
     document.getElementById("principal").style.backgroundImage = "url(./img/Scene2.png)";
     document.getElementById("puertaE1").style.display = "none";
     document.getElementById("puertaE9").style.display = "none";
-    document.getElementById("puertaE7").style.display = "none";
-    document.getElementById("linternaE7").style.display = "none";
     document.getElementById("puertaE2").style.display = "block";
-}
-
-function entrarE3() {
-    document.getElementById("principal").style.backgroundImage = "url(./img/Scene3.png)";
-    document.getElementById("puertaE2").style.display = "none";
     document.getElementById("puertaE9").style.display = "none";
     document.getElementById("papelE9").style.display = "none";
     document.getElementById("candadoE9").style.display = "none";
@@ -150,9 +146,14 @@ function entrarE3() {
     document.getElementById("msg").style.display = "none";
     document.getElementById("puertaE10").style.display = "none";
     document.getElementById("puertaAtrasE10").style.display = "none";
+    document.getElementById("candadoE10").style.display = "none";
+}
+
+function entrarE3() {
+    document.getElementById("principal").style.backgroundImage = "url(./img/Scene3.png)";
+    document.getElementById("puertaE2").style.display = "none";
     document.getElementById("puertaizqE3").style.display = "block";
     document.getElementById("puertadchaE3").style.display = "block";
-    document.getElementById("candadoE10").style.display = "none";
 }
 
 function entrarE4() {
@@ -191,6 +192,8 @@ function entrarE7() {
     document.getElementById("puertaE7").style.display = "block";
     if (linterna == false) {
         document.getElementById("linternaE7").style.display = "block";
+        document.getElementById("msg").style.display = "block";
+        document.getElementById("msg").innerHTML = "Mmmmmm... Podría haber algo util por aquí";
     }
 }
 
@@ -200,6 +203,9 @@ function entrarE8() {
     document.getElementById("puertadchaE3").style.display = "none";
     document.getElementById("puertaE6").style.display = "none";
     document.getElementById("puertaE8").style.display = "block"
+    document.getElementById("msg").style.display = "none";
+    document.getElementById("puertaE7").style.display = "none";
+    document.getElementById("linternaE7").style.display = "none";
 }
 
 function entrarE9() {
